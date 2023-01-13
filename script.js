@@ -32,13 +32,17 @@ function lightMode(){
 function changeTheme(event){
     if (event.target.checked){
         document.documentElement.setAttribute('data-theme', 'dark');
-        darkMode();
+        darkMode();  
     }
+
     else{
         document.documentElement.setAttribute('data-theme', 'light');
         lightMode();
+        
     }
 };
 
 
 toggleSwitch.addEventListener('change', changeTheme);
+
+

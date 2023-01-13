@@ -28,6 +28,7 @@
 html{
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
 }
 
 body{
@@ -38,8 +39,6 @@ body{
    overflow-x: hidden;
    background-color: var(--background);
    
-   /* background-attachment: fixed; */
-   /* background-size: cover; */
    
 }
 
@@ -76,10 +75,6 @@ section{
     justify-content: center;
     align-items: center;
 }
-
-/* .title-group{
-    border: 1px solid red;
-} */
 
 
 .title-group > h1{
